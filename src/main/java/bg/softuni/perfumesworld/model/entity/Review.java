@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "comments")
-public class Comment {
+public class Review {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
